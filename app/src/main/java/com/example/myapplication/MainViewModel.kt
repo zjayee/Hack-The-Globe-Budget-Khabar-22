@@ -4,5 +4,6 @@ import androidx.lifecycle.ViewModel
 
 class MainViewModel: ViewModel() {
 
+    var familyMemberArrayList: ArrayList<Any> = ArrayList()
 
 }

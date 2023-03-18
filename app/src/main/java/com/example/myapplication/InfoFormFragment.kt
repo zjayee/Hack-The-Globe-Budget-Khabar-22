@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.LinearLayout
 import com.google.android.material.floatingactionbutton.FloatingActionButton
-
+import androidx.lifecycle.ViewModelProvider
 
 /**
  * A simple [Fragment] subclass.
@@ -15,6 +15,10 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton
  * create an instance of this fragment.
  */
 class InfoFormFragment : Fragment() {
+
+    private val viewModel: MainViewModel by lazy {
+        ViewModelProvider(requireActivity()).get(MainViewModel::class.java)
+    }
 
     lateinit var rootview: View
     lateinit var familyMembersLinearLayout: LinearLayout
@@ -37,11 +41,30 @@ class InfoFormFragment : Fragment() {
         familyMembersLinearLayout = rootview.findViewById(R.id.family_members_linear_layout)
         addMemberFab = rootview.findViewById(R.id.add_member_button)
         nextFab = rootview.findViewById(R.id.next_button)
+        addMember()
+
+        addMemberFab.setOnClickListener{
+            addMember()
+        }
+
+        nextFab.setOnClickListener{
+            saveMembers()
+            //TODO: navigate
+        }
+
         return rootview
     }
 
     fun addMember(){
+        val memberCard = FamilyMemberInput(context, null)
+        familyMembersLinearLayout.addView(memberCard)
+    }
 
+    fun saveMembers(){
+        for (i in 0 until familyMembersLinearLayout.childCount){
+            val member = familyMembersLinearLayout.getChildAt(i) as FamilyMemberInput
+            viewModel.familyMemberArrayList.add(member.returnValues())
+        }
     }
 
     companion object {
