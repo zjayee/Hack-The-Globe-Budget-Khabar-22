@@ -14,7 +14,7 @@
         />
 
     <EditText
-        android:id="@+id/member_name_textview"
+        android:id="@+id/member_name_edittext"
         android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -30,7 +30,7 @@
         />
 
     <EditText
-        android:id="@+id/member_age_textview"
+        android:id="@+id/member_age_edittext"
         android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -56,12 +56,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/sex_female"
-            android:onClick="onRadioButtonClicked"/>
+            />
         <RadioButton android:id="@+id/radio_male"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/sex_male"
-            android:onClick="onRadioButtonClicked"/>
+            />
     </RadioGroup>
 
     <TextView

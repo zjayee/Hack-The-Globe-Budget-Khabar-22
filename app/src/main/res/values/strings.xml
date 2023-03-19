@@ -10,7 +10,12 @@
     <string name="plus">+</string>
     <string name="add">Add</string>
     <string name="next">Next</string>
-
+    <string name="hello_blank_fragment">hello</string>
+    <string name="hi_user">Hi Sumita!</string>
+    <string name="nutrition_intro">Nutritional foods designed for your budget</string>
+    <string name="plan_trip">Plan a new shopping trip</string>
+    <string name="learn_more_healthy">Learn more about eating healthy</string>
+    
     <string-array name="allergies_array">
         <item>Eggs</item>
         <item>Milk</item>

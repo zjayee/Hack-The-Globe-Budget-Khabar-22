@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import android.widget.LinearLayout
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import androidx.lifecycle.ViewModelProvider
+import androidx.navigation.fragment.findNavController
 
 /**
  * A simple [Fragment] subclass.
@@ -49,7 +50,7 @@ class InfoFormFragment : Fragment() {
 
         nextFab.setOnClickListener{
             saveMembers()
-            //TODO: navigate
+            findNavController().navigate(R.id.action_infoFormFragment_to_dashboardFragment)
         }
 
         return rootview

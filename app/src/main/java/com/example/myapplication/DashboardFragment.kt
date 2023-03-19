@@ -5,6 +5,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
+import androidx.navigation.fragment.findNavController
 
 /**
  * A simple [Fragment] subclass.
@@ -13,7 +15,8 @@ import android.view.ViewGroup
  */
 class DashboardFragment : Fragment() {
 
-    lateinit var rootView: View
+    lateinit var rootview: View
+    lateinit var planTripButton: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -27,7 +30,14 @@ class DashboardFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_dashboard, container, false)
+        rootview = inflater.inflate(R.layout.fragment_dashboard, container, false)
+        planTripButton = rootview.findViewById(R.id.plan_trip_button)
+
+        planTripButton.setOnClickListener{
+            findNavController().navigate(R.id.startPlanFragment)
+        }
+
+        return rootview
     }
 
 //    companion object {
