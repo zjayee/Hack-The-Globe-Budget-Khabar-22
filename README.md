@@ -1,6 +1,7 @@
-"# hack_the_globe - Team 22" 
+# Hack the Globe: Budget Khabar
+Team 22: Jayee, Leanna, Shirley, Bashar
 
-Project: Budget Khabar
+Health and Humanity
 
 Mobile App Demo: 
 https://youtube.com/shorts/ZX4nNfiAUe0?feature=share
