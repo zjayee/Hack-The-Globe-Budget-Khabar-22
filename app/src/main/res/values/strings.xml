@@ -27,6 +27,9 @@
     <string name="grain">Grain</string>
     <string name="dairy">Dairy</string>
     <string name="trip_summary">Trip Summary</string>
+    <string name="selected_food">Food</string>
+    <string name="nutrient_summary">Nutrient Summary</string>
+    <string name="estimated_price">Estimated Price</string>
     
     <string-array name="allergies_array">
         <item>Eggs</item>
