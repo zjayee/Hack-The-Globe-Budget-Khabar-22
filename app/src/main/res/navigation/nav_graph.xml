@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.example.myapplication.DashboardFragment"
+        android:label="fragment_dashboard"
+        tools:layout="@layout/fragment_dashboard" >
+        <action
+            android:id="@+id/action_dashboardFragment_to_startPlanFragment"
+            app:destination="@id/startPlanFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_infoFormFragment"
+            app:destination="@id/infoFormFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/startPlanFragment"
+        android:name="com.example.myapplication.StartPlanFragment"
+        android:label="fragment_start_plan"
+        tools:layout="@layout/fragment_start_plan" >
+        <action
+            android:id="@+id/action_startPlanFragment_to_foodChoiceFragment"
+            app:destination="@id/foodChoiceFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/foodChoiceFragment"
+        android:name="com.example.myapplication.FoodChoiceFragment"
+        android:label="fragment_food_choice"
+        tools:layout="@layout/fragment_food_choice" >
+        <action
+            android:id="@+id/action_foodChoiceFragment_to_nutritionalValueFragment"
+            app:destination="@id/nutritionalValueFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nutritionalValueFragment"
+        android:name="com.example.myapplication.NutritionalValueFragment"
+        android:label="fragment_nutritional_value"
+        tools:layout="@layout/fragment_nutritional_value" />
+    <fragment
+        android:id="@+id/infoFormFragment"
+        android:name="com.example.myapplication.InfoFormFragment"
+        android:label="fragment_info_form"
+        tools:layout="@layout/fragment_info_form" >
+        <action
+            android:id="@+id/action_infoFormFragment_to_dashboardFragment"
+            app:destination="@id/dashboardFragment" />
+    </fragment>
+</navigation>

@@ -1,3 +1,47 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Budget Khabar</string>
+    <string name="welcome_info">Welcome, tell us about who you\'re shopping for</string>
+    <string name="sex_female">Female</string>
+    <string name="sex_male">Male</string>
+    <string name="sex">Sex</string>
+    <string name="name">Name</string>
+    <string name="age">Age</string>
+    <string name="allergies">Allergies</string>
+    <string name="plus">+</string>
+    <string name="add">Add</string>
+    <string name="next">Next</string>
+    <string name="hello_blank_fragment">hello</string>
+    <string name="hi_user">Hi Sumita!</string>
+    <string name="nutrition_intro">Nutritional foods designed for your budget</string>
+    <string name="plan_trip">Plan a new shopping trip</string>
+    <string name="learn_more_healthy">Learn more about eating healthy</string>
+    <string name="start_plan_header">Start Your Shopping Trip Plan</string>
+    <string name="budget">Budget (৳)</string>
+    <string name="num_meals">Number of Meals</string>
+    <string name="members">Members</string>
+    <string name="recommendation_intro">Grocery Recommendations</string>
+    <string name="select_1">Select 1 food from each category</string>
+    <string name="fruit">Fruit</string>
+    <string name="vegetable">Vegetable</string>
+    <string name="protein">Protein</string>
+    <string name="grain">Grain</string>
+    <string name="dairy">Dairy</string>
+    <string name="trip_summary">Trip Summary</string>
+    <string name="selected_food">Food</string>
+    <string name="nutrient_summary">Nutrient Summary</string>
+    <string name="estimated_price">Estimated Price</string>
+    
+    <string-array name="allergies_array">
+        <item>Eggs</item>
+        <item>Milk</item>
+        <item>Mustard</item>
+        <item>Peanuts</item>
+        <item>Crustaceans and molluscs</item>
+        <item>Fish</item>
+        <item>Sesame Seeds</item>
+        <item>Soy</item>
+        <item>Sulphites</item>
+        <item>Tree nuts</item>
+        <item>Wheat and triticale</item>
+    </string-array>
 </resources>
