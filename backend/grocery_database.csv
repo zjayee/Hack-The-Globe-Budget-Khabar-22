@@ -1,0 +1,16 @@
+Category,Food,Quantity,NumberOfMeals,PricePerMeal,Price
+Fruit,Banana,4,4,8.75,35
+Fruit,Orange,7,7,27.14,190
+Fruit,Pineapple,1,4,13.25,53
+Vegetable,Carrot,6,6,2.83,17
+Vegetable,Tomato,8,4,4.25,17
+Vegetable,Cabbage,1,2,17.50,35
+Grains,Mozammel Special Miniket Rice,20kg,100,14.88,"1,488"
+Grains,Chashi Aromatic Chinigura Rice,1kg,20,13.20,264
+Grains,Aarong Natural Kalizira Rice ,1kg,20,6.30,126
+Dairy,Cheese,200g,4,33.75,135
+Dairy,Yogurt,0.5L,2,45.00,90
+Dairy,Milk,1L,4,20.25,81
+Protein,Eggs,6,6,10.33,62
+Protein,Chicken,500g,5,58.40,292
+Protein,Beef,500g,5,84.40,422
