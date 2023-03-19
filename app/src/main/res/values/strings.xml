@@ -15,6 +15,10 @@
     <string name="nutrition_intro">Nutritional foods designed for your budget</string>
     <string name="plan_trip">Plan a new shopping trip</string>
     <string name="learn_more_healthy">Learn more about eating healthy</string>
+    <string name="start_plan_header">Start Your Shopping Trip Plan</string>
+    <string name="budget">Budget (৳)</string>
+    <string name="num_meals">Number of Meals</string>
+    <string name="members">Members</string>
     
     <string-array name="allergies_array">
         <item>Eggs</item>
