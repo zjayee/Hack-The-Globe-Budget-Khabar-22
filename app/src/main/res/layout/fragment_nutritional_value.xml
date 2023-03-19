@@ -18,9 +18,9 @@
             android:fontFamily="@font/open_sans"
             android:layout_marginHorizontal="30dp"
             android:text="@string/trip_summary"
-            android:textSize="24sp"
+            android:textSize="26sp"
             android:textStyle="bold"
-            android:textColor="@color/black"
+            android:textColor="@color/orange_700"
             android:layout_marginTop="40dp"
             />
 

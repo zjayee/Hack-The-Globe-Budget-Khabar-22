@@ -25,7 +25,7 @@
                 android:text="@string/recommendation_intro"
                 android:textSize="24sp"
                 android:textStyle="bold"
-                android:textColor="@color/black"
+                android:textColor="@color/orange_700"
                 android:layout_marginTop="40dp"
                 />
 

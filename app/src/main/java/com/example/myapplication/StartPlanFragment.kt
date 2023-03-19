@@ -1,6 +1,7 @@
 package com.example.myapplication
 
 import android.os.Bundle
+import android.util.TypedValue
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
@@ -53,6 +54,7 @@ class StartPlanFragment : Fragment() {
         for (i in 0 until members.size){
             val checkBox = CheckBox(context)
             checkBox.text = members[i].name
+            checkBox.setTextSize(TypedValue.COMPLEX_UNIT_SP,18F)
             membersLinearLayout.addView(checkBox)
         }
 
