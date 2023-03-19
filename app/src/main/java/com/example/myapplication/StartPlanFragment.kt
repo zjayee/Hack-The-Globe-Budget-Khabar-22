@@ -57,7 +57,6 @@ class StartPlanFragment : Fragment() {
         }
 
         nextFab.setOnClickListener {
-            //TODO: save
             findNavController().navigate(R.id.action_startPlanFragment_to_foodChoiceFragment)
         }
 

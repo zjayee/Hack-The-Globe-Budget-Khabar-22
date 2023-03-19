@@ -19,6 +19,14 @@
     <string name="budget">Budget (৳)</string>
     <string name="num_meals">Number of Meals</string>
     <string name="members">Members</string>
+    <string name="recommendation_intro">Grocery Recommendations</string>
+    <string name="select_1">Select 1 food from each category</string>
+    <string name="fruit">Fruit</string>
+    <string name="vegetable">Vegetable</string>
+    <string name="protein">Protein</string>
+    <string name="grain">Grain</string>
+    <string name="dairy">Dairy</string>
+    <string name="trip_summary">Trip Summary</string>
     
     <string-array name="allergies_array">
         <item>Eggs</item>
