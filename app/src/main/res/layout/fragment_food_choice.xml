@@ -29,6 +29,14 @@
                 android:layout_marginTop="40dp"
                 />
 
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:src="@color/orange_500"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="15dp"
+                />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -59,12 +67,7 @@
                 />
 
             <include
-                android:id="@+id/apple"
-                layout="@layout/food_item_card"
-                />
-
-            <include
-                android:id="@+id/orange"
+                android:id="@+id/pineapple"
                 layout="@layout/food_item_card"
                 />
 
@@ -82,17 +85,17 @@
                 />
 
             <include
-                android:id="@+id/banana"
+                android:id="@+id/carrot"
                 layout="@layout/food_item_card"
                 />
 
             <include
-                android:id="@+id/apple"
+                android:id="@+id/tomato"
                 layout="@layout/food_item_card"
                 />
 
             <include
-                android:id="@+id/orange"
+                android:id="@+id/cabbage"
                 layout="@layout/food_item_card"
                 />
 
@@ -110,63 +113,7 @@
                 />
 
             <include
-                android:id="@+id/banana"
-                layout="@layout/food_item_card"
-                />
-
-            <include
-                android:id="@+id/apple"
-                layout="@layout/food_item_card"
-                />
-
-            <include
-                android:id="@+id/orange"
-                layout="@layout/food_item_card"
-                />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/open_sans"
-                android:layout_marginHorizontal="30dp"
-                android:text="@string/grain"
-                android:textStyle="bold"
-                android:textSize="20sp"
-                android:textColor="@color/black"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="10dp"
-                />
-
-            <include
-                android:id="@+id/banana"
-                layout="@layout/food_item_card"
-                />
-
-            <include
-                android:id="@+id/apple"
-                layout="@layout/food_item_card"
-                />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/open_sans"
-                android:layout_marginHorizontal="30dp"
-                android:text="@string/dairy"
-                android:textStyle="bold"
-                android:textSize="20sp"
-                android:textColor="@color/black"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="10dp"
-                />
-
-            <include
-                android:id="@+id/banana"
-                layout="@layout/food_item_card"
-                />
-
-            <include
-                android:id="@+id/apple"
+                android:id="@+id/eggs"
                 layout="@layout/food_item_card"
                 />
 
